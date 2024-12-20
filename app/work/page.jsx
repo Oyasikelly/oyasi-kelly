@@ -21,9 +21,9 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "Rating component",
+    title: "Interacting rating component",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A sleek and user-friendly rating feature that allows seamless interaction for collecting feedback. Designed with precision to enhance user engagement and usability.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/images/work/project-1.jpg",
     live: "https://thunderous-khapse-40396d.netlify.app/",
@@ -34,7 +34,7 @@ const projects = [
     category: "frontend",
     title: "Fylo landing page",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A sleek and responsive landing page designed to highlight Fylo's features and services. Crafted for user engagement with a clean layout and seamless navigation.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }],
     image: "/images/work/project-2.jpg",
     live: "",
@@ -45,7 +45,7 @@ const projects = [
     category: "frontend",
     title: "GuessMy-Number",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "An engaging number-guessing game that challenges players to predict the correct number. Designed for fun and excitement with an intuitive interface and interactive gameplay.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/images/work/project-3.png",
     live: "https://kelsnumbergame.netlify.app/",
@@ -56,7 +56,7 @@ const projects = [
     category: "frontend",
     title: "Simple booking",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A streamlined single-page chat application designed for effortless booking interactions. Combines simplicity and functionality to enhance user convenience and communication.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }],
     image: "/images/work/project-4.jpg",
     live: "https://oyasikelly.github.io/chat-app-css-illustration-master/",
@@ -67,7 +67,7 @@ const projects = [
     category: "frontend",
     title: "Calculator",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A simple and efficient calculator app designed for quick and accurate computations. Features a user-friendly interface for seamless everyday calculations.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/images/work/project-5.png",
     live: "https://calculatormadewith-js.netlify.app/",
@@ -78,7 +78,7 @@ const projects = [
     category: "frontend",
     title: "Login Page",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A secure and intuitive login page designed for seamless user authentication. Features a clean layout to enhance accessibility and user experience.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }],
     image: "/images/work/project-6.png",
     live: "https://imaginative-melba-43c5dd.netlify.app/",
@@ -89,7 +89,7 @@ const projects = [
     category: "frontend",
     title: "To Do List",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "An organized and user-friendly app designed to help you manage tasks efficiently. Features a clean interface for adding, tracking, and completing tasks with ease.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/images/work/project-12.png",
     live: "https://imaginative-tartufo-d107bb.netlify.app/",
@@ -100,7 +100,7 @@ const projects = [
     category: "frontend",
     title: "Pig Game",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A fun and interactive dice game where players race to reach the target score. Designed with a simple, engaging interface for hours of entertainment.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/images/work/project-8.png",
     live: "https://imaginative-tartufo-d107bb.netlify.app/",
@@ -111,7 +111,7 @@ const projects = [
     category: "frontend",
     title: "Quote2Me",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A dynamic platform for discovering and sharing inspiring quotes. Designed with a sleek interface to make browsing and engaging with quotes effortless and enjoyable.",
     stack: [
       { name: "Html 5" },
       { name: "Css 3" },
@@ -127,7 +127,7 @@ const projects = [
     category: "frontend",
     title: "Country Geo",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      " An interactive web app that allows users to explore country information and geographical details. Designed with an intuitive interface for easy navigation and learning about the world.",
     stack: [
       { name: "Html 5" },
       { name: "Css 3" },
@@ -144,7 +144,7 @@ const projects = [
     category: "frontend",
     title: "URL Shorter",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A simple and efficient tool for shortening long URLs into concise, shareable links. Designed for easy use, providing quick access and improved link management.",
     stack: [
       { name: "Html 5" },
       { name: "Css 3" },
@@ -161,7 +161,7 @@ const projects = [
     category: "frontend",
     title: "IP Address Tracker",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores sapiente mollitia minus necessitatibus obcaecati unde ipsum incidunt?",
+      "A tool that allows users to track and locate IP addresses with ease. Featuring a clean and intuitive interface, it provides accurate geographical information for each IP.",
     stack: [
       { name: "Html 5" },
       { name: "Css 3" },
@@ -194,21 +194,21 @@ export default function Works() {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+      className="min-h-[80vh] flex flex-col justify-center px-10 py-12 xl:px-0"
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* outline numbers */}
-              <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
+              <div className="text-5xl xl:text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
               </div>
               {/* project category */}
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+              <h2 className="text-[32px] xl:text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category} project
               </h2>
-              <h3 className="text-[30px] font-bold leading-none text-accent group-hover:text-accent transition-all duration-500 capitalize">
+              <h3 className="text-[25px] text-[30px] font-bold leading-none text-accent group-hover:text-accent transition-all duration-500 capitalize">
                 {project.title}
               </h3>
               <p className="text-white/60">{project.description}</p>
@@ -230,8 +230,8 @@ export default function Works() {
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                      <TooltipTrigger className="w-[50px] h-[50px] xl:w-[70px] xl:h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                        <BsArrowUpRight className="text-white text-2xl xl:text-3xl group-hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Live project</p>
@@ -243,7 +243,7 @@ export default function Works() {
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                      <TooltipTrigger className="w-[50px] xl:w-[70px] h-[50px] xl:h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
                         <BsGithub className="text-white text-3xl group-hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>

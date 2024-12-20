@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit animi modi laboriosam atque est aliquam voluptatibus saepe.",
+    "I am a web developer and Electrical Engineering student at the Federal University of Petroleum Resources Effurun. Passionate about innovation and problem-solving, I combine technical skills with creativity to build digital solutions that exceed expectations. My work merges engineering precision with web development potential, turning ideas into impactful realities.",
   info: [
     {
       fieldName: "Name",
@@ -58,7 +58,7 @@ const experience = {
   icon: "/images/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates provident odio omnis voluptate quas sint nisi quae.",
+    "As a web developer, I craft immersive digital experiences, blending creativity and precision to build seamless, user-centric solutions that redefine possibilities and inspire innovation.",
   items: [
     {
       company: "Tech Solutions Inc.",
@@ -99,7 +99,7 @@ const education = {
   icon: "/images/resume/Graduation_Cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates provident odio omnis voluptate quas sint nisi quae.",
+    "Studying Electrical Engineering at the Federal University of Petroleum Resources Effurun has enriched my problem-solving skills and technical foundation, which seamlessly align with my passion for web development, enabling me to craft efficient, innovative, and user-focused digital solutions.",
   items: [
     {
       institution: "Tech Institute",
@@ -135,7 +135,7 @@ const skills = {
   icon: "/images/resume/skills.gif",
   title: "My Skills",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates provident odio omnis voluptate quas sint nisi quae.",
+    "My skills in web development, honed through continuous learning and hands-on projects, reflect a blend of creativity and technical expertise, deeply rooted in the analytical and problem-solving foundation from my Electrical Engineering studies.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -190,14 +190,14 @@ export default function Resume() {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+      className="min-h-[80vh] flex items-center justify-center px-14 xl:px-0 py-12 xl:py-0"
     >
       <div className="container mx-auto pb-8">
         <Tabs
           defaultValue="experience"
           className="flex flex-col xl:flex-row gap-[60px]"
         >
-          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+          <TabsList className="text-sm xl:text-md flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
@@ -209,11 +209,11 @@ export default function Resume() {
             <TabsContent value="experience" className="w-full">
               {/* Experience */}
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold">
+                <h3 className="text-2xl xl:text-4xl font-bold">
                   {experience.title}
                   💪🏾
                 </h3>
-                <p className="max-w-[500px] text-white/60 mx-auto xl:mx-0">
+                <p className="text-sm xl:text-md max-w-[500px] text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -224,7 +224,7 @@ export default function Resume() {
                         className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >
                         <span className="text-accent">{item.duration}</span>
-                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                        <h3 className="text-md xl:text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
                           {item.position}
                         </h3>
 

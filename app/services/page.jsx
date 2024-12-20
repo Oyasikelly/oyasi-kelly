@@ -8,29 +8,29 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex maiores repellendus recusandae rerum velit cum ut!",
-    href: "",
+      "Transform your ideas into stunning, functional websites. From sleek designs to seamless functionality, we build tailored solutions that elevate your online presence.",
+    href: "/contact",
   },
   {
     num: "02",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex maiores repellendus recusandae rerum velit cum ut!",
-    href: "",
+      "Crafting user-centered interfaces that captivate and deliver. Experience intuitive designs that connect, engage, and enhance user satisfaction effortlessly.",
+    href: "/contact",
   },
   {
     num: "03",
     title: "Logo Deisgn",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex maiores repellendus recusandae rerum velit cum ut!",
-    href: "",
+      "Your brand's identity deserves a memorable mark. We create visually striking logos that embody your essence and leave a lasting impression.",
+    href: "/contact",
   },
   {
     num: "04",
     title: "SEO",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ex maiores repellendus recusandae rerum velit cum ut!",
-    href: "",
+      "Rise above the competition with expert SEO strategies. Drive organic traffic, boost rankings, and ensure your audience finds you with ease.",
+    href: "/contact",
   },
 ];
 
@@ -38,7 +38,7 @@ import { motion } from "framer-motion";
 
 export default function Services() {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center px-4 xl:px-0 py-12 xl:py-0 ">
+    <section className="min-h-[80vh] flex flex-col justify-center px-6 xl:px-0 py-12 xl:py-0 ">
       <div className="container mx-auto pb-8">
         <motion.div
           initial={{ opacity: 0 }}
@@ -55,18 +55,18 @@ export default function Services() {
             >
               {/* top */}
               <div className="w-full flex justify-between items-center">
-                <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+                <div className="text-3xl xl:text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                   {service.num}
                 </div>
                 <Link
                   href={service.href}
-                  className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                  className="w-[50px] xl:w-[70px] h-[50px] xl:h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                 >
-                  <BsArrowDownRight className="text-primary text-3xl " />
+                  <BsArrowDownRight className="text-primary text-xl xl:text-3xl " />
                 </Link>
               </div>
               {/* title */}
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+              <h2 className="text-[32px] xl:text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
                 {service.title}
               </h2>
               {/* description */}
