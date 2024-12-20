@@ -39,8 +39,8 @@ export default function Photo() {
           xmlns="http://www.w3.or/2000/svg"
         >
           <motion.circle
-            cx="253"
-            cy="253"
+            cx="213"
+            cy="243"
             r="250"
             stroke="#00ff99"
             strokeWidth="4"
@@ -49,7 +49,7 @@ export default function Photo() {
             initial={{ strokeDasharray: "24 10 0 0" }}
             animate={{
               strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
-              rotate: [120, 360],
+              rotate: [180, 180],
             }}
             transition={{
               duration: 20,

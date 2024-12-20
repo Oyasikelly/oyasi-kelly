@@ -12,7 +12,7 @@ export default function () {
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pxb-0">
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
+        <div className="grid grid-cols-2  xl:flex xxl:flex-wrap  gap-6 max-w-[80vw] mx-auto xl:max-w-none">
           {stats.map((Item, index) => (
             <div
               key={index}
