@@ -28,19 +28,19 @@ export default function Photo() {
             fill
             sizes="auto"
             alt="oyasikelly"
-            className="object-contain"
+            className="object-contain "
           />
         </motion.div>
 
         <motion.svg
-          className="w-[300px] xl:w-[586px] h-[300px] xl:h-[589px]"
+          className="pl-7 pb-[0.5rem] xl:pl-0 xl:pb-0 w-[300px] xl:w-[586px] h-[300px] xl:h-[589px]"
           fill="transparent" // sizes="auto"
           viewBox="0 0 586 586"
           xmlns="http://www.w3.or/2000/svg"
         >
           <motion.circle
-            cx="213"
-            cy="243"
+            cx="253"
+            cy="253"
             r="250"
             stroke="#00ff99"
             strokeWidth="4"
