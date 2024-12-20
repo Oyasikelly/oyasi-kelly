@@ -35,7 +35,7 @@ export default function MobileNavs() {
         aria-describedby={undefined}
       >
         {/* Logo */}
-        <div className="mt-32 mb-40 text-center text-2xl">
+        <div className="mt-20 mb-20 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
               Ke<span className="text-accent">ll</span>y🧑🏾‍💻
