@@ -40,6 +40,37 @@ export default function Contact() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [service, setService] = useState("");
   const [message, setMessage] = useState("");
+
+  const handleSelectChange = (value) => {
+    setService(() => value);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = { firstname, lastname, email, phoneNumber, service, message };
+
+    //Submit via api
+    const response = await fetch("/api/submit", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
+
+    const content = await response.json();
+    console.log(content);
+    alert(content.data);
+
+    setFirstname("");
+    setLastname("");
+    setEmail("");
+    setPhoneNumber("");
+    setService("");
+    setMessage("");
+  };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -53,7 +84,10 @@ export default function Contact() {
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
           <div className="xl:w-[50%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <form
+              className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
+              onSubmit={handleSubmit}
+            >
               <h3 className="text-2xl xl:text-4xl text-accent">
                 Let's work together
               </h3>
@@ -64,22 +98,44 @@ export default function Contact() {
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input
+                  type="firstname"
+                  value={firstname}
+                  onChange={(e) => setFirstname(e.target.value)}
+                  placeholder="Firstname"
+                />
+                <Input
+                  type="lastname"
+                  value={lastname}
+                  onChange={(e) => setLastname(e.target.value)}
+                  placeholder="Lastname"
+                />
+                <Input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Email address"
+                />
+                <Input
+                  type="phone"
+                  value={phoneNumber}
+                  onChange={(e) => setPhoneNumber(e.target.value)}
+                  placeholder="Phone number"
+                />
               </div>
-              {/* select */}
-              <Select>
+              {/* service */}
+              <Select value={service} onValueChange={handleSelectChange}>
                 <SelectTrigger className="w-full text-sm xl:text-md">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="nst">Logo Design</SelectItem>
+                    <SelectItem value="Web Development">
+                      Web Development
+                    </SelectItem>
+                    <SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
+                    <SelectItem value="Logo Design">Logo Design</SelectItem>
                     {/* <SelectItem value="nst">SEO</SelectItem> */}
                   </SelectGroup>
                 </SelectContent>
@@ -88,6 +144,8 @@ export default function Contact() {
               <Textarea
                 className="h-[200px]"
                 placeholder="Type your message here"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               />
               {/* Button */}
               <Button size="md" className="max-w-40">
