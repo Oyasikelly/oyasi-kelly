@@ -23,3 +23,6 @@
     -webkit-text-stroke: 1px #00ff99;
   }
 }
+body::-webkit-scrollbar {
+  display: none;
+}

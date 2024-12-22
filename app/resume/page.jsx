@@ -61,34 +61,44 @@ const experience = {
     "As a web developer, I craft immersive digital experiences, blending creativity and precision to build seamless, user-centric solutions that redefine possibilities and inspire innovation.",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "Self-Initiated Projects",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
+      duration: "2024 - Present",
+      role: [
+        "Developed a quiz application with advanced UI features and authentication.",
+        "Designed Geo-Country and ShortLink projects using APIs like RapidAPI and Google Maps.",
+        "Began exploring blockchain technology and dApp development using Solidity.",
+      ],
+    },
+    {
+      company: "Freelance",
+      position: "Full Stack Developer",
+      duration: "2023 - 2024",
+      role: [
+        "Built full-stack applications with Node.js, Express, and MongoDB.",
+        "Created authentication systems using JWT and improved project efficiency with Redux.",
+        "Developed an e-commerce app with payment gateway integration.",
+      ],
     },
     {
       company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      position: "Frontend Developer",
+      duration: "2022 - 2023",
+      role: [
+        "Developed interactive web applications using React.js.",
+        "Integrated REST APIs into projects like weather apps and to-do lists.",
+        " Designed and deployed mobile-friendly user interfaces using Tailwind CSS and Bootstrap.",
+      ],
     },
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Freelance",
+      position: "Junior Frontend Developer",
+      duration: "2022",
+      role: [
+        "Built foundational skills in HTML, CSS, and JavaScript.",
+        "Created responsive personal portfolio and static websites for small clients.",
+        "Gained experience with Git for version control and hosting platforms like Netlify.",
+      ],
     },
   ],
 };
@@ -221,7 +231,7 @@ export default function Resume() {
                     {experience.items.map((item, index) => (
                       <li
                         key={index}
-                        className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                        className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col items-center lg:items-start gap-1 overflow-auto scrollbar-none"
                       >
                         <span className="text-accent">{item.duration}</span>
                         <h3 className="text-md xl:text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
@@ -231,8 +241,21 @@ export default function Resume() {
                         <div className="flex items-center gap-3">
                           {/* dot */}
                           <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                          <p className="text-white/60">{item.company}</p>
+                          <p className="text-white/80">{item.company}</p>
                         </div>
+                        <ul className="w-auto pb-4">
+                          {item.role.map((rol, index) => (
+                            <div
+                              key={index}
+                              className="flex items-center gap-3 mt-4"
+                            >
+                              <span className="w-[15px] h-[6px] rounded-full bg-accent self-start"></span>
+                              <li className="self-start -mt-2 text-white/40">
+                                {rol}
+                              </li>
+                            </div>
+                          ))}
+                        </ul>
                       </li>
                     ))}
                   </ul>
