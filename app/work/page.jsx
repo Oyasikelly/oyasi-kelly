@@ -271,7 +271,7 @@ export default function Works() {
                         src={project.image}
                         fill
                         sizes="auto"
-                        className="object-cover"
+                        className="object-contain"
                         alt=""
                       />
                     </div>
