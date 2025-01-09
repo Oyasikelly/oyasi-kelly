@@ -32,6 +32,13 @@ const services = [
       "Rise above the competition with expert SEO strategies. Drive organic traffic, boost rankings, and ensure your audience finds you with ease.",
     href: "/contact",
   },
+  {
+    num: "05",
+    title: "Database Management",
+    description:
+      "Stay ahead of the curve with robust database management strategies. Optimize performance, streamline data access, and ensure seamless backend operations for efficient user experiences.",
+    href: "/contact",
+  },
 ];
 
 import { motion } from "framer-motion";

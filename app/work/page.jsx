@@ -173,6 +173,22 @@ const projects = [
     live: "https://ip-address-tracker-spyr.vercel.app/",
     github: "https://github.com/Oyasikelly/ip-address-tracker",
   },
+  {
+    num: "13",
+    category: "frontend",
+    title: "Smoothies",
+    description:
+      "A web app where users can explore and create smoothie recipes. It offers a variety of smoothies with customizable options, allowing users to select ingredients based on preferences and dietary needs.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Css 3" },
+      { name: "Vite" },
+      { name: "Supabase" },
+    ],
+    image: "/images/work/project-17.png",
+    live: "https://smoothies-database.vercel.app/",
+    github: "https://github.com/Oyasikelly/smoothies-database",
+  },
 ];
 
 // components

@@ -8,6 +8,8 @@ import {
   FaNodeJs,
   FaJs,
 } from "react-icons/fa";
+import { SiSupabase } from "react-icons/si";
+
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // About data
@@ -178,6 +180,10 @@ const skills = {
     {
       icon: <SiTailwindcss />,
       name: "tailwind.css",
+    },
+    {
+      icon: <SiSupabase />,
+      name: "supabase",
     },
   ],
 };
