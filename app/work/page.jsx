@@ -189,6 +189,24 @@ const projects = [
     live: "https://smoothies-database.vercel.app/",
     github: "https://github.com/Oyasikelly/smoothies-database",
   },
+  {
+    num: "14",
+    category: "frontend & Backend",
+    title: "Next Quiz App",
+    description:
+      "A web app where users can explore and create smoothie recipes. It offers a variety of smoothies with customizable options, allowing users to select ingredients based on preferences and dietary needs.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Shadcn" },
+      { name: "Tailwind css" },
+      { name: "Next.js" },
+      { name: "Supabase" },
+      { name: "Node.js" },
+    ],
+    image: "/images/work/project-18.png",
+    live: "https://next-quiz-app-red.vercel.app/",
+    github: "https://github.com/Oyasikelly/next-quiz-app",
+  },
 ];
 
 // components
