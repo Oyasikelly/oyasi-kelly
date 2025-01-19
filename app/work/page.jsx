@@ -192,9 +192,9 @@ const projects = [
   {
     num: "14",
     category: "frontend & Backend",
-    title: "Next Quiz App",
+    title: "QuizMaster",
     description:
-      "A web app where users can explore and create smoothie recipes. It offers a variety of smoothies with customizable options, allowing users to select ingredients based on preferences and dietary needs.",
+      "A sleek and interactive quiz app built with Next.js, Tailwind CSS, and Framer Motion. Enjoy engaging animations, instant feedback, and a user-friendly design for fun and learning on the go.",
     stack: [
       { name: "Html 5" },
       { name: "Shadcn" },
@@ -202,6 +202,7 @@ const projects = [
       { name: "Next.js" },
       { name: "Supabase" },
       { name: "Node.js" },
+      { name: "framer-motion" },
     ],
     image: "/images/work/project-18.png",
     live: "https://next-quiz-app-red.vercel.app/",
@@ -245,9 +246,9 @@ export default function Works() {
               <h3 className="text-[25px] text-[30px] font-bold leading-none text-accent group-hover:text-accent transition-all duration-500 capitalize">
                 {project.title}
               </h3>
-              <p className="text-white/60">{project.description}</p>
+              <p className="text-white/60 ">{project.description}</p>
               {/* stack */}
-              <ul className="flex gap-4">
+              <ul className="flex gap-4 flex-wrap">
                 {project.stack.map((item, index) => (
                   <li key={index} className="text-xl text-accent">
                     {item.name}
