@@ -192,7 +192,7 @@ const projects = [
   {
     num: "14",
     category: "frontend & Backend",
-    title: "QuizMaster",
+    title: "Quiz Master",
     description:
       "A sleek and interactive quiz app built with Next.js, Tailwind CSS, and Framer Motion. Enjoy engaging animations, instant feedback, and a user-friendly design for fun and learning on the go.",
     stack: [
@@ -205,8 +205,8 @@ const projects = [
       { name: "framer-motion" },
     ],
     image: "/images/work/project-18.png",
-    live: "https://next-quiz-app-red.vercel.app/",
-    github: "https://github.com/Oyasikelly/next-quiz-app",
+    live: "https://quizmasterv1.vercel.app",
+    github: "https://github.com/Oyasikelly/QuizMaster",
   },
 ];
 
