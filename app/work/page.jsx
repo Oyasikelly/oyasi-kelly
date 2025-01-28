@@ -103,7 +103,7 @@ const projects = [
       "A fun and interactive dice game where players race to reach the target score. Designed with a simple, engaging interface for hours of entertainment.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/images/work/project-8.png",
-    live: "https://imaginative-tartufo-d107bb.netlify.app/",
+    live: "https://regal-sherbet-3f21c2.netlify.app/",
     github: "https://github.com/Oyasikelly/Pig-Game",
   },
   {
