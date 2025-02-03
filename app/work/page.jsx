@@ -208,6 +208,22 @@ const projects = [
     live: "https://quizmasterv1.vercel.app",
     github: "https://github.com/Oyasikelly/QuizMaster",
   },
+  {
+    num: "15",
+    category: "frontend",
+    title: "Color Game",
+    description:
+      "The Color Guessing Game is a fun and interactive game where players try to guess the correct color from a randomly shuffled set. The game features multiple color sets, a scoring system, and limited attempts per round. It uses React, Tailwind CSS, and Framer Motion for smooth animations and an engaging UI. Players can track their high scores and challenge themselves to improve their guessing skills. 🚀🎮",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind css" },
+      { name: "React + Vite" },
+      { name: "framer-motion" },
+    ],
+    image: "/images/work/project-19.png",
+    live: "https://color-game-hng.vercel.app",
+    github: "https://github.com/Oyasikelly/color-game",
+  },
 ];
 
 // components
