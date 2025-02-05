@@ -201,7 +201,6 @@ const projects = [
       { name: "Tailwind css" },
       { name: "Next.js" },
       { name: "Supabase" },
-      { name: "Node.js" },
       { name: "framer-motion" },
     ],
     image: "/images/work/project-18.png",
