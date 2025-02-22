@@ -204,7 +204,7 @@ const projects = [
       { name: "framer-motion" },
     ],
     image: "/images/work/project-18.png",
-    live: "https://quizmasterv1.vercel.app",
+    live: "https://quizmasterrccg.vercel.app",
     github: "https://github.com/Oyasikelly/QuizMaster",
   },
   {
