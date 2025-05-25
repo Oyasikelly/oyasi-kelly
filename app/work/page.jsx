@@ -223,24 +223,20 @@ const projects = [
     live: "https://color-game-hng.vercel.app",
     github: "https://github.com/Oyasikelly/color-game",
   },
-<<<<<<< HEAD
   {
     num: "16",
     category: "frontend",
     title: "Kelsbot",
-    description:
-      "KelsBot is a friendly and responsive chatbot built with Next.js 15 and TypeScript. Designed to provide quick replies and simulate basic conversations, KelsBot offers a clean, intuitive interface using Tailwind CSS. Whether you're greeting it or asking for help, KelsBot is ready to assist with a touch of personality and simplicity.",
+    description:"KelsBot is a friendly and responsive chatbot built with Next.js 15 and TypeScript. Designed to provide quick replies and simulate basic conversations, KelsBot offers a clean, intuitive interface using Tailwind CSS. Whether you're greeting it or asking for help, KelsBot is ready to assist with a touch of personality and simplicity.",
     stack: [
       { name: "Html 5" },
       { name: "Css" },
       { name: "Javascript" },
     ],
     image: "/images/work/project-20.png",
-    live: "https://chat-bot1-sigma.vercel.app/",
-    github: "https://github.com/Oyasikelly/chatBot1",
+    live: "https://chat-bot1-sigma.vercel.app",
+    github: "https://github.com/Oyasikelly/ChatBot1",
   },
-=======
->>>>>>> 36d3007c4c6331c05fe741466c6d075691b23b09
 ];
 
 // components
