@@ -39,8 +39,8 @@ I'm open to collaboration, freelance gigs, internships, or just techy convos. Hi
 
 📩 Email: `kelightdev@gmail.com`  
 🌐 Portfolio: [oyasi-kelly.vercel.app](https://oyasi-kelly.vercel.app)  
-🐦 Twitter: [@oyasi_kelly](https://x.com/kelscode101)  
-💼 LinkedIn: [Kelly Divine](https://www.linkedin.com/in/kelly-oyasi/)
+🐦 Twitter: [oyasi_kelly](https://x.com/kelscode101)  
+💼 LinkedIn: [oyasi_kelly](https://www.linkedin.com/in/kelly-oyasi/)
 
 ---
 
