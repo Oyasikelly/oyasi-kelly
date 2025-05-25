@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👋 Hey there, I'm Kelly — a Creative Full-Stack Developer 👨‍💻⚡
 
-## Getting Started
+Welcome to my GitHub space! I'm passionate about building powerful digital experiences, solving real-world problems with clean code, and continuously pushing the boundaries of what I can create.
 
-First, run the development server:
+## 🔧 Tech Stack & Tools
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| Area | Tools / Technologies |
+|------|-----------------------|
+| **Frontend** | React • Next.js • TypeScript • Tailwind CSS • Chakra UI • SCSS/SASS |
+| **Backend** | Node.js • Express.js • Supabase • MongoDB • PostgreSQL |
+| **Web3** | Solidity (in progress) • Metamask • Ether.js |
+| **Other Tools** | Git & GitHub • Vite • Figma • Framer Motion • REST APIs |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 What I'm Working On
+- 🧠 A quiz web app to engage and educate youth interactively
+- 🌐 `KelightElectrical` — a portfolio site for my electrical engineering services
+- 🛠️ Personal projects that merge my love for engineering and web development
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 My Goals
+- Master full-stack development
+- Build efficient web applications that **solve real-world problems**
+- Dive deep into Web 3.0 & blockchain tech
+- Keep growing, keep building, and always stay curious
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Latest Projects
+- 🔗 [Country Geo App](https://countrygeo.netlify.app): Get details of any country at a glance
+- 🔗 [Chat-Bot1](https://chat-bot1-sigma.vercel.app) A simple yet smart chatbot built to mimic conversational AI. Try asking it something fun — it's always ready to chat!  
+- 🔗 [Portfolio Site](https://oyasi-kelly.vercel.app): Explore my journey, projects, and skills
+- 🔗 Boost Business Hub: Helping businesses grow with tech-driven solutions
 
-## Learn More
+## 🧰 Featured Skills
+`React` • `Next.js` • `Node.js` • `API Integration` • `Database Design` • `UI/UX Thinking` • `Team Collaboration`
 
-To learn more about Next.js, take a look at the following resources:
+## 🌱 Learning & Growing
+I'm always learning — whether it's about Web3, performance optimization, or deploying scalable systems.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💬 Let's Connect!
+I'm open to collaboration, freelance gigs, internships, or just techy convos. Hit me up:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📩 Email: `kelightdev@gmail.com`  
+🌐 Portfolio: [oyasi-kelly.vercel.app](https://oyasi-kelly.vercel.app)  
+🐦 Twitter: [oyasi_kelly](https://x.com/kelscode101)  
+💼 LinkedIn: [oyasi_kelly](https://www.linkedin.com/in/kelly-oyasi/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> “Code is not just what I write, it's what I sculpt — to bring ideas to life.” 🎨
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thanks for stopping by! ⭐ Star a repo or follow me for more cool stuff.
+

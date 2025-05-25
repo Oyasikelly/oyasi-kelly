@@ -223,6 +223,7 @@ const projects = [
     live: "https://color-game-hng.vercel.app",
     github: "https://github.com/Oyasikelly/color-game",
   },
+<<<<<<< HEAD
   {
     num: "16",
     category: "frontend",
@@ -238,6 +239,8 @@ const projects = [
     live: "https://chat-bot1-sigma.vercel.app/",
     github: "https://github.com/Oyasikelly/chatBot1",
   },
+=======
+>>>>>>> 36d3007c4c6331c05fe741466c6d075691b23b09
 ];
 
 // components
