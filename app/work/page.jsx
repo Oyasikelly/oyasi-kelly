@@ -227,7 +227,7 @@ const projects = [
     num: "16",
     category: "frontend",
     title: "Kelsbot",
-    description:"KelsBot is a friendly and responsive chatbot built with Next.js 15 and TypeScript. Designed to provide quick replies and simulate basic conversations, KelsBot offers a clean, intuitive interface using Tailwind CSS. Whether you're greeting it or asking for help, KelsBot is ready to assist with a touch of personality and simplicity.",
+    description:"KelsBot is a friendly and responsive chatbot. Designed to provide quick replies and simulate basic conversations, KelsBot offers a clean, intuitive interface using Tailwind CSS. Whether you're greeting it or asking for help, KelsBot is ready to assist with a touch of personality and simplicity.",
     stack: [
       { name: "Html 5" },
       { name: "Css" },
