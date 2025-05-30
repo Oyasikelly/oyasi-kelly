@@ -237,6 +237,22 @@ const projects = [
     live: "https://chat-bot1-sigma.vercel.app",
     github: "https://github.com/Oyasikelly/ChatBot1",
   },
+  {
+    num: "17",
+    category: "Fullstack",
+    title: "Boost Business Hub",
+    description:"Boost Business Hub is a Nigerian tech education and consulting company that provides hands-on training, mentorship, and corporate upskilling programs to bridge the digital skills gap and empower future tech leaders.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind Css" },
+      { name: "Javascript" },
+      { name: "Next,js" },
+      { name: "supabase" },
+    ],
+    image: "/images/work/project-21.png",
+    live: "https://boost-business-hub.vercel.app",
+    github: "https://github.com/Oyasikelly/Boost-Business-Hub",
+  },
 ];
 
 // components
