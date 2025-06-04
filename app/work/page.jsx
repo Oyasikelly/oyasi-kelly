@@ -252,6 +252,34 @@ const projects = [
     image: "/images/work/project-21.png",
     live: "https://boost-business-hub.vercel.app",
     github: "https://github.com/Oyasikelly/Boost-Business-Hub",
+  },{
+    num: "18",
+    category: "Frontend",
+    title: "Rock, Paper, Scissors",
+    description:"Rock, Paper, Scissors is a classic game where players choose between three options: rock, paper, or scissors. The game is designed with a sleek interface using Tailwind CSS and React, providing an engaging user experience. Players can easily select their choice and see the outcome of each round in real-time.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind Css" },
+      { name: "Javascript" },
+      { name: "Next,js" },
+    ],
+    image: "/images/work/project-22.png",
+    live: "https://rock-paper-scissors-master-47ot.vercel.app",
+    github: "https://github.com/Oyasikelly/rock-paper-scissors-master",
+  }
+  ,{
+    num: "19",
+    category: "FullStack",
+    title: "ApplyForU",
+    description:"ApplyForU is a comprehensive job application platform designed to streamline the job search process. It allows users to create profiles, upload resumes, and apply for jobs with ease. The platform features a user-friendly interface built with Next.js and Tailwind CSS, ensuring a smooth experience for job seekers.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind Css" },
+      { name: "Next,js" },
+    ],
+    image: "/images/work/project-23.png",
+    live: "https://applyforu.vercel.app",
+    github: "https://github.com/Oyasikelly/applyForU",
   },
 ];
 
