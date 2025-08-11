@@ -12,6 +12,7 @@ import {
 	SelectValue,
 } from "@/components/ui/select";
 
+import services from "@/data/services";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 const info = [
 	{
@@ -169,11 +170,14 @@ export default function Contact() {
 									<SelectContent>
 										<SelectGroup>
 											<SelectLabel>Select a service</SelectLabel>
-											<SelectItem value="Web Development">
-												Web Development
-											</SelectItem>
-											<SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
-											<SelectItem value="Logo Design">Logo Design</SelectItem>
+											{services.map((service) => (
+												<SelectItem
+													value={service.title}
+													key={service.title}>
+													{service.title}
+												</SelectItem>
+											))}
+
 											{/* <SelectItem value="nst">SEO</SelectItem> */}
 										</SelectGroup>
 									</SelectContent>

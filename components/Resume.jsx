@@ -8,7 +8,14 @@ import {
 	FaNodeJs,
 	FaJs,
 } from "react-icons/fa";
-import { SiSupabase, SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+	SiSupabase,
+	SiTailwindcss,
+	SiNextdotjs,
+	SiShopify,
+	SiPostgresql,
+	SiPrisma,
+} from "react-icons/si";
 
 // About data
 
@@ -178,6 +185,18 @@ const skills = {
 		{
 			icon: <SiSupabase />,
 			name: "Supabase",
+		},
+		{
+			icon: <SiShopify />,
+			name: "Shopify",
+		},
+		{
+			icon: <SiPostgresql />,
+			name: "PostgreSQL",
+		},
+		{
+			icon: <SiPrisma />,
+			name: "Prisma",
 		},
 	],
 };
