@@ -42,14 +42,21 @@ const projects = [
 	// },
 	{
 		num: "02",
-		category: "frontend",
-		title: "GuessMy-Number",
+		category: "Fullstack",
+		title: "KelightElectrical",
 		description:
-			"An engaging number-guessing game that challenges players to predict the correct number. Designed for fun and excitement with an intuitive interface and interactive gameplay.",
-		stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-		image: "/images/work/project-3.png",
-		live: "https://kelsnumbergame.netlify.app/",
-		github: "https://github.com/Oyasikelly/GuessMy-Number",
+			"KelightElectrical is an electrical servicing company that provides reliable solutions in electrical installations, maintenance, and repairs. We are dedicated to delivering safe, efficient, and innovative electrical services for homes, businesses, and industries.",
+		stack: [
+			{ name: "Html 5" },
+			{ name: "Css 3" },
+			{ name: "Javascript" },
+			{ name: "Next.js" },
+			{ name: "Tailwind CSS" },
+			{ name: "Supabase" },
+		],
+		image: "/images/work/project-25.png",
+		live: "https://kelightElectrical.vercel.app",
+		github: "https://github.com/Oyasikelly/kelightelectrical",
 	},
 	// {
 	// 	num: "04",

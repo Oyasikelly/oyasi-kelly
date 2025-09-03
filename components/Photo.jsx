@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Photo() {
 	return (
-		<div className="w-full h-full relative">
+		<div className="hidden xl:block w-full h-full relative">
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{
