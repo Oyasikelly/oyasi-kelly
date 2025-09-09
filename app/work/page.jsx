@@ -104,7 +104,7 @@ const projects = [
 		description:
 			"$PXL8 is a revolutionary token designed to empower artists and revolutionize the way they create and share their art.",
 		stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" },{name:"Next js"}],
-		image: "/images/work/project-27.png",
+		image: "/images/work/project-27.PNG",
 		live: "https://pxl8erc.vercel.app",
 		github: "./",
 	},
@@ -198,7 +198,7 @@ const projects = [
 			{ name: "Vite" },
 			{ name: "Supabase" },
 		],
-		image: "/images/work/project-26.png",
+		image: "/images/work/project-26.PNG",
 		live: "https://get-linked-laye.vercel.app",
 		github: "./",
 	},
