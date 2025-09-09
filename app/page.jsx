@@ -51,6 +51,20 @@ export default function Home() {
 				</div>
 			</div>
 
+			<div>
+				<Button
+								variant="outline"
+								size="md"
+								className="uppercase flex items-center gap-2">
+								<Link
+									href="/work"
+									>
+									<span>View my works</span>
+								</Link>
+								
+							</Button>
+			</div>
+			
 			<Stats />
 			<Resume />
 			<Contact />
