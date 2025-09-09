@@ -51,7 +51,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="w-full justify-center items-center py-4">
+			<div className="w-full flex justify-center items-center py-4">
 				<Button
 								variant="outline"
 								size="md"
