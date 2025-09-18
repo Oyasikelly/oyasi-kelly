@@ -40,35 +40,23 @@ const projects = [
 	// 	live: "",
 	// 	github: "",
 	// },
+
 	{
 		num: "02",
 		category: "Fullstack",
-		title: "KelightElectrical",
+		title: "Prosmith",
 		description:
-			"KelightElectrical is an electrical servicing company that provides reliable solutions in electrical installations, maintenance, and repairs. We are dedicated to delivering safe, efficient, and innovative electrical services for homes, businesses, and industries.",
+			"Prosmith connects you with top energy experts to deliver solutions that cut costs, enhance efficiency, and drive a sustainable future. We provide customized installations designed to meet your unique energy needs.",
 		stack: [
-			{ name: "Html 5" },
 			{ name: "Css 3" },
-			{ name: "Javascript" },
-			{ name: "Next.js" },
-			{ name: "Tailwind CSS" },
-			{ name: "Supabase" },
+			{ name: "tailwind css" },
+			{ name: "Nextjs" },
+			{ name: "nodemailer" },
 		],
-		image: "/images/work/project-25.png",
-		live: "https://kelightElectrical.vercel.app",
-		github: "https://github.com/Oyasikelly/kelightelectrical",
+		image: "/images/work/project-4.png",
+		live: "https://prosmith.vercel.app",
+		github: "https://github.com/Oyasikelly/PROSMITH",
 	},
-	// {
-	// 	num: "04",
-	// 	category: "frontend",
-	// 	title: "Simple booking",
-	// 	description:
-	// 		"A streamlined single-page chat application designed for effortless booking interactions. Combines simplicity and functionality to enhance user convenience and communication.",
-	// 	stack: [{ name: "Html 5" }, { name: "Css 3" }],
-	// 	image: "/images/work/project-4.jpg",
-	// 	live: "https://oyasikelly.github.io/chat-app-css-illustration-master/",
-	// 	github: "",
-	// },
 	{
 		num: "03",
 		category: "Fullstack",
@@ -272,6 +260,24 @@ const projects = [
 	},
 	{
 		num: "14",
+		category: "Fullstack",
+		title: "KelightElectrical",
+		description:
+			"KelightElectrical is an electrical servicing company that provides reliable solutions in electrical installations, maintenance, and repairs. We are dedicated to delivering safe, efficient, and innovative electrical services for homes, businesses, and industries.",
+		stack: [
+			{ name: "Html 5" },
+			{ name: "Css 3" },
+			{ name: "Javascript" },
+			{ name: "Next.js" },
+			{ name: "Tailwind CSS" },
+			{ name: "Supabase" },
+		],
+		image: "/images/work/project-25.png",
+		live: "https://kelightElectrical.vercel.app",
+		github: "https://github.com/Oyasikelly/kelightelectrical",
+	},
+	{
+		num: "15",
 		category: "Frontend",
 		title: "Rock, Paper, Scissors",
 		description:
@@ -287,7 +293,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/rock-paper-scissors-master",
 	},
 	{
-		num: "15",
+		num: "16",
 		category: "FullStack",
 		title: "ApplyForU",
 		description:
