@@ -100,7 +100,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/event-trybe",
 	},
 	{
-		num: "04",
+		num: "05",
 		category: "frontend",
 		title: "To Do List",
 		description:
@@ -111,7 +111,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/To-Do-List",
 	},
 	{
-		num: "05",
+		num: "06",
 		category: "frontend",
 		title: "Pig Game",
 		description:
@@ -122,7 +122,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/Pig-Game",
 	},
 	{
-		num: "06",
+		num: "07",
 		category: "Fullstack",
 		title: "StudMac.",
 		description:
@@ -141,7 +141,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/StudMac",
 	},
 	{
-		num: "06",
+		num: "08",
 		category: "frontend",
 		title: "Country Geo",
 		description:
@@ -158,7 +158,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/geo-country",
 	},
 	{
-		num: "07",
+		num: "09",
 		category: "frontend",
 		title: "URL Shorter",
 		description:
@@ -175,7 +175,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/short-link",
 	},
 	{
-		num: "08",
+		num: "10",
 		category: "frontend",
 		title: "IP Address Tracker",
 		description:
@@ -192,7 +192,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/ip-address-tracker",
 	},
 	{
-		num: "09",
+		num: "11",
 		category: "frontend",
 		title: "Smoothies",
 		description:
@@ -208,7 +208,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/smoothies-database",
 	},
 	{
-		num: "10",
+		num: "12",
 		category: "frontend & Backend",
 		title: "Quiz Master",
 		description:
@@ -226,7 +226,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/QuizMaster",
 	},
 	{
-		num: "11",
+		num: "13",
 		category: "frontend",
 		title: "Color Game",
 		description:
@@ -242,7 +242,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/color-game",
 	},
 	{
-		num: "12",
+		num: "14",
 		category: "frontend",
 		title: "Kelsbot",
 		description:
@@ -253,7 +253,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/ChatBot1",
 	},
 	{
-		num: "13",
+		num: "15",
 		category: "Fullstack",
 		title: "Boost Business Hub",
 		description:
@@ -270,7 +270,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/Boost-Business-Hub",
 	},
 	{
-		num: "14",
+		num: "16",
 		category: "Fullstack",
 		title: "KelightElectrical",
 		description:
@@ -288,7 +288,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/kelightelectrical",
 	},
 	{
-		num: "15",
+		num: "17",
 		category: "Frontend",
 		title: "Rock, Paper, Scissors",
 		description:
@@ -304,7 +304,7 @@ const projects = [
 		github: "https://github.com/Oyasikelly/rock-paper-scissors-master",
 	},
 	{
-		num: "16",
+		num: "18",
 		category: "FullStack",
 		title: "ApplyForU",
 		description:
