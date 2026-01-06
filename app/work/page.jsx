@@ -80,17 +80,25 @@ const projects = [
 		live: "https://quizmentorofficial2025.vercel.app/",
 		github: "https://github.com/Oyasikelly/QuizMentor",
 	},
-	// {
-	// 	num: "04",
-	// 	category: "frontend",
-	// 	title: "Login Page",
-	// 	description:
-	// 		"A secure and intuitive login page designed for seamless user authentication. Features a clean layout to enhance accessibility and user experience.",
-	// 	stack: [{ name: "Html 5" }, { name: "Css 3" }],
-	// 	image: "/images/work/project-6.png",
-	// 	live: "https://imaginative-melba-43c5dd.netlify.app/",
-	// 	github: "https://github.com/Oyasikelly/LoginPage",
-	// },
+	{
+		num: "04",
+		category: "Fullstack",
+		title: "Event Trybe",
+		description:
+			"The Modern Event Management Platform Create, manage, and track events effortlessly. From intimate workshops to large conferences, EventTrybe makes event organization seamless with powerful features and beautiful design.",
+		stack: [
+			{ name: "PostgreSQL" },
+			{ name: "Css 3" },
+			{ name: "Typescript" },
+			{ name: "Next.js" },
+			{ name: "Prisma" },
+			{ name: "Neon database" },
+			{ name: "Vercel" },
+		],
+		image: "/images/work/project-27.png",
+		live: "https://event-trybe.vercel.app/",
+		github: "https://github.com/Oyasikelly/event-trybe",
+	},
 	{
 		num: "04",
 		category: "frontend",
@@ -113,22 +121,25 @@ const projects = [
 		live: "https://regal-sherbet-3f21c2.netlify.app/",
 		github: "https://github.com/Oyasikelly/Pig-Game",
 	},
-	// {
-	// 	num: "06",
-	// 	category: "frontend",
-	// 	title: "Quote2Me",
-	// 	description:
-	// 		"A dynamic platform for discovering and sharing inspiring quotes. Designed with a sleek interface to make browsing and engaging with quotes effortless and enjoyable.",
-	// 	stack: [
-	// 		{ name: "Html 5" },
-	// 		{ name: "Css 3" },
-	// 		{ name: "Tailwind Css" },
-	// 		{ name: "React" },
-	// 	],
-	// 	image: "/images/work/project-13.png",
-	// 	live: "https://quote2me.netlify.app/",
-	// 	github: "https://github.com/Oyasikelly/quoteapp",
-	// },
+	{
+		num: "06",
+		category: "Fullstack",
+		title: "StudMac.",
+		description:
+			"StudMac is an online platform dedicated to providing students with access to a wide range of academic resources, including textbooks, study guides, and past exam papers. The platform aims to enhance the learning experience by offering affordable and easily accessible materials to support students in their academic journey.",
+		stack: [
+			{ name: "Css 3" },
+			{ name: "Tailwind Css" },
+			{ name: "JavaScript" },
+			{ name: "posgres sql" },
+			{ name: "Neon database" },
+			{ name: "Typescript" },
+			{ name: "Next.js" },
+		],
+		image: "/images/work/project-26.png",
+		live: "https://studmac.vercel.app",
+		github: "https://github.com/Oyasikelly/StudMac",
+	},
 	{
 		num: "06",
 		category: "frontend",
